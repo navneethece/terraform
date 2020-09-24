@@ -1,14 +1,14 @@
-resource "aws_instance" "myawsserver" {
+resource "aws_instance" "navneeth" {
   ami = "ami-0603cbe34fd08cb81"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Techlanders-aws-ec2-instance"
+    Name = "Navneeth-aws-ec2-instance"
     Env = "Prod"
   }
 }
 
 output "myawsserver-ip" {
-  value = "${aws_instance.myawsserver.public_ip}"
+  value = "${aws_instance.navneeth.public_ip}"
 }
 
