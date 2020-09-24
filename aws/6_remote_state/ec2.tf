@@ -3,7 +3,7 @@ resource "aws_instance" "navneeth" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Navneeth-aws-ec2-instance"
+    Name = "5StarsNavneeth-aws-ec2-instance"
     Env = "Prod"
   }
 }
